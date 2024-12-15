@@ -14,7 +14,7 @@
 
 ## 🚀 セットアップ
 
-### 前提条件
+### 📝 前提条件
 
 - Python 3.8以上
 - Google Cloud アカウントとプロジェクト
@@ -23,19 +23,19 @@
 
 ### 📥 インストール
 
-1. リポジトリのクローン:
+1.  リポジトリのクローン:
 ```bash
 git clone https://github.com/yourusername/vertex-ai-sample.git
 cd vertex-ai-sample
 ```
 
-2. 依存パッケージのインストール:
+2.  依存パッケージのインストール:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 環境変数の設定:
-`.env`ファイルを作成し、以下の内容を設定:
+3.  環境変数の設定:
+    `.env`ファイルを作成し、以下の内容を設定:
 ```env
 GOOGLE_CLOUD_PROJECT=your-project-id
 GOOGLE_CLOUD_REGION=your-region
